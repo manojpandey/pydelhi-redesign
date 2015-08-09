@@ -10,7 +10,7 @@ body {
 }
 
 .trigrid {
-    background-image: url("/img/trigrid.svg");
+    background-image: url('../img/trigrid.svg');
     background-position: center top;
     background-size: 107.2px 120px;
     top: 0;
@@ -18,7 +18,7 @@ body {
 }
 
 .banner {
-    background: rgba(0, 0, 0, 0) url("/img/banner.png") no-repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url('../img/banner.png') no-repeat scroll center center;
     height: 100%;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .team {
-    background: rgba(0, 0, 0, 0) url("/img/pydelhi1.jpeg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url('../img/pydelhi1.jpeg') no-repeat scroll center center / cover;
     height: 98%;
     margin-top: 20px;
     vertical-align: middle;
