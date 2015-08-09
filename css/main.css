@@ -1,4 +1,4 @@
-html,
+    html,
 body {
     height: 100%;
     width: 100%;
@@ -19,6 +19,7 @@ body {
 
 .banner {
     background: rgba(0, 0, 0, 0) url('../img/banner.png') no-repeat scroll center center;
+    background-size: contain;
     height: 100%;
 }
 
@@ -47,4 +48,40 @@ body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     vertical-align: middle;
+}
+
+.text {
+    font-size: 20px;
+}
+
+@media all and (max-width: 320px) {
+    .text,
+    .hello {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .connect {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .connect {
+        font-size: 8px;
+    }
+}
+
+.gh-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+@media all and (max-width: 320px) {
+    .gh-ribbon {
+        height: 100px;
+    }
 }
