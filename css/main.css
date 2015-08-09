@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    border-bottom: 2px solid grey;
+    height: 30%;
+}
+
+.trigrid {
+    background-image: url("/img/trigrid.svg");
+    background-position: center top;
+    background-size: 107.2px 120px;
+    top: 0;
+    width: 100%;
+}
+
+.banner {
+    background: rgba(0, 0, 0, 0) url("/img/banner.png") no-repeat scroll center center;
+    height: 100%;
+}
+
+.intro-body {
+    height: 70%;
+}
+
+.image-section {
+    height: 95%;
+}
+
+.team {
+    background: rgba(0, 0, 0, 0) url("/img/pydelhi1.jpeg") no-repeat scroll center center / cover;
+    height: 98%;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.contact {
+    display: table;
+    height: 100%;
+}
+
+.connect {
+    display: table-cell;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
